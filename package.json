@@ -1,0 +1,24 @@
+{
+  "name": "quote-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Quote bot for Max",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "googleapis": "^140.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.5.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "3.3.2"
+  }
+}

@@ -1,0 +1,4 @@
+.env*
+/node_modules
+# ignore google secrets
+google-secrets.json
